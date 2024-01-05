@@ -67,7 +67,8 @@ class DailyReportDataTable extends DataTable
                         Button::make('print'),
                        // Button::make('reset'),
                        // Button::make('reload')
-                    ]);
+                    ])->responsive(); 
+                    
     }
 
     /**
